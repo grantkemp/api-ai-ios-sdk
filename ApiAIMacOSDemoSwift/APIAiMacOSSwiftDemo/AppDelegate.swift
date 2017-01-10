@@ -20,6 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         configuration.clientAccessToken = self.clientkey_APIAi
         ApiAI.shared().configuration = configuration
         
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
